@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:msa-user-service
+    username: sa
+    password: '{cipher}cf5321198501a85c6214addc7b65ee2a05248076f426c7fc5b3e5d41a93c7c67'
+
+token:
+  secret: user_token_native_application_changed#1
+  expiration_time: 864000000
+
+gateway:
+  ip: 192.168.0.8
