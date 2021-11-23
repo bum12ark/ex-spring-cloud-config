@@ -14,4 +14,4 @@ gateway:
   
 order-service:
   url:
-    getorders: http://127.0.0.1:8000/order-service/%s/orders
+    getorders: http://APIGATEWAY-SERVICE/order-service/%s/orders
